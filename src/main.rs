@@ -18,9 +18,9 @@ fn main() {
    let mut mot2: String = String::new();
     io::stdin().read_line(&mut mot2).unwrap();
    let mot2: &str= mot2.trim();
-   let machen: &str = action(&mot1, &mot2);
+   let teste: &str = action(&mot1, &mot2);
 
-   println!("voicci le resultat du lifetime {} est le plus grand mot ",machen);
+   println!("voicci le resultat du lifetime {} est le plus grand mot ",teste);
 
     
 
